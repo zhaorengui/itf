@@ -101,7 +101,7 @@ function login_header( $title = 'Log In', $message = '', $wp_error = '' ) {
 		$login_header_url   = network_home_url();
 		$login_header_title = get_current_site()->site_name;
 	} else {
-		$login_header_url   = __( 'http://'.$_SERVER['HTTP_HOST'].'/itf-blog' );
+		$login_header_url   = __( 'http://'.$_SERVER['HTTP_HOST'].'/itf' );
 		$login_header_title = __( 'Powered by Rengui' );
 	}
 

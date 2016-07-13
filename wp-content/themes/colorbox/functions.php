@@ -15,8 +15,6 @@ define( 'COLORBOX_IMAGES', COLORBOX_THEMEROOT . '/images' );
 define( 'COLORBOX_SCRIPTS', COLORBOX_THEMEROOT . '/js' );
 
 
-
-
 /**
  * ----------------------------------------------------------------------------------------
  * 2.0 - Extra jQuery and other codes
