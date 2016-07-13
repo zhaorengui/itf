@@ -109,10 +109,9 @@ function create_initial_post_types() {
 		'query_var' => false,
 		) );
 
-	register_post_type('contact_info',array(
-		'label' => 'contact_info';
-		
-		));
+	// register_post_type('contact_info',array(
+		// 'label' => 'contact_info',
+		// ));
 
 	register_post_status( 'publish', array(
 		'label'       => _x( 'Published', 'post status' ),
