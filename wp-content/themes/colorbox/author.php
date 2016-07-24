@@ -12,7 +12,8 @@
 		<?php if ( have_posts() ) : the_post(); ?>
 			<header class="page-header">
 				<h1>
-					<?php printf( __( 'All posts by %s', 'colorbox' ), get_the_author() ); ?>
+					<!-- <?php printf( __( 'All posts by %s', 'colorbox' ), get_the_author() ); ?> -->
+					<?php printf( __( '%s 的所有文章', 'colorbox' ), get_the_author() ); ?>
 				</h1>
 
 				<?php 
